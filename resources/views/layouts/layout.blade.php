@@ -23,12 +23,11 @@
 
 
 
-    <div >
+    <main >
 
         @yield('content')
 
-
-    </div>
+    </main>
 
 
 

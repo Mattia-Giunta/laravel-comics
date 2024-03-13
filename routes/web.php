@@ -15,11 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    $data = [
-        'name'=> 'Mattia',
-    ];
+    $cards = config('comics');
 
-    return view('page.home', $data);
+    return view('page.home', compact('cards'));
 });
 
 
