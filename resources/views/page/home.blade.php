@@ -28,8 +28,42 @@
 
         </div>
 
-        <button>load more</button>
+        <button class="btn-load-more">load more</button>
     </div>
+
+    <section class="blue-banner mt-5 ">
+
+        <ul>
+
+          <li>
+            <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png')}}" alt="">
+            <span>digital comics</span>
+          </li>
+
+          <li>
+            <img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png')}}" alt="">
+            <span>dc merchandise</span>
+          </li>
+
+          <li>
+            <img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png')}}" alt="">
+            <span>subscription</span>
+          </li>
+
+          <li>
+            <img class="location-img" src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png')}}" alt="">
+            <span>comin location</span>
+          </li>
+
+          <li>
+            <img src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg')}}" alt="">
+            <span>dc power visa</span>
+          </li>
+
+
+        </ul>
+
+    </section>
 
 </section>
 

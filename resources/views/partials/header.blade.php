@@ -4,7 +4,7 @@
 
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
 
-            <img src="{{ Vite::asset('resources/img/dc-logo.png')}}" alt="">
+            <img src="{{ Vite::asset('resources/img/dc-logo.png')}}" alt="logo dc">
 
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center gap-4">
 
@@ -13,7 +13,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link text-uppercase text-dark fw-medium" href="#">Comic</a>
+                    <a class="nav-link text-uppercase text-dark fw-medium" href="/">Comic</a>
                 </li>
 
                 <li class="nav-item">
