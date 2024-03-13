@@ -4,10 +4,12 @@
 
 @section('content')
 
-    <h1>Hello World</h1>
+<section class="w-100">
 
-    <h1>Sono la pagina home</h1>
+    <div class="container-fluid jumbo" >
 
-    <h3>My name is {{$name}}</h3>
-    
+    </div>
+
+</section>
+
 @endsection
