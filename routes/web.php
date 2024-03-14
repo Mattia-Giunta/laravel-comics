@@ -21,8 +21,8 @@ Route::get('/', function () {
 });
 
 
-Route::get('/about', function () {
+Route::get('/caracters', function () {
 
-    return view('page.about');
+    return view('page.caracters');
 
 });
